@@ -2,7 +2,7 @@ import { Box, Container, Stack, Title, Text, Button, TextInput, Image } from "@m
 import { notifications } from "@mantine/notifications"
 import router from "next/router"
 import React from "react"
-import { useMutation } from "react-query"
+import { useMutation } from "@tanstack/react-query"
 import { Head } from "../components/Head"
 import { ProjectService } from "../service/project.service"
 import { apiClient } from "../utils.client"
